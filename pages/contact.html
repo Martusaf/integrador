@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/assets/contact.css">
+    <title>Contactanos</title>
 </head>
 <body>
     <header>
-        <img src="/assets/img/logo.png" alt="logo" class="navbar_logo">
+        <a href="/index.html#hero" target="_blank"><img src="/assets/img/logo.png" alt="logo" class="navbar_logo"></a>
         <nav class="navbar">
             <ul class="navbar-list">
                 <li><a class="navbar-link" href="/index.html#hero">Inicio</li>
@@ -20,5 +21,28 @@
             <a href="./pages/login.html"><img src="/assets/img/login.png" alt="login"></a>
         </nav>
     </header>
+    <main>
+        <section id="hero">
+            <div class="whatsapp">
+                <h2>Comunicate con nosotros</h2>
+                <img src="/assets/img/whatsapp.png">
+                <a class="primary-button" href="https://web.whatsapp.com" target="_blank">WhatsApp </a>
+            </div>
+            <div class="call center">
+                <img src="/assets/img/contact.png">
+                <h2>Call Center</h2>
+                <p>0800-111-ACOMP(22667)</p>
+            </div>
+            <div class="contact-form">
+            <h1 class="title_form">Formulario de contacto</h1>
+            <input type="text" placeholder="Nombre" class="form_input">
+            <input type="text" placeholder="Apellido" class="form_input">
+            <input type="email" placeholder="Correo Electronico" class="form_input">
+            <input type="text" placeholder="Asunto" class="form_input">
+            <p><input type="checkbox">Acepto a ser contactado/a por un/a agente de Acompañarte</p>
+            <input type="submit" class="submit" placeholder="Enviar">
+        </div>
+        </section>
+    </main>
 </body>
 </html>
