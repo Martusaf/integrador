@@ -1,1 +1,123 @@
+/* CSS HEX */
+:root {
+--ua-red: #DC1952ff;
+--cerulean-crayola: #04A2CEff;
+--lava: #C61321ff;
+--medium-violet-red: #D1188Aff;
+--bitter-lemon: #CFD508ff;
+--goldenrod: #E0A601ff;
+--marigold: #F1A82Aff;
+--mantis: #6ABD51ff;
+--black: #000000ff;
+--tiza: #fbf7f4ff;;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {    
+background: var(--tiza);
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 65px;
+padding: 0px 10px;
+position:sticky ;
+top: 0;
+}
+
+.navbar_logo {
+width: 15%;
+}
+
+.navbar, .navbar-list {
+display: flex;
+align-items: center;
+justify-content: flex-end ;
+}
+
+.navbar {
+gap: 10px;
+}
+
+.navbar-list {
+gap: 25px;
+}
+
+.navbar_login {
+width: 5%;
+justify-content: flex-end;
+float: right;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--black);
+    width: 100%;
+}
+
+#hero {
+    margin-top: 65px;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px 20px;
+
+}
+
+.hero-info h1 {
+    display: flex;
+    font-size: 50px;
+    width: 60%;
+    color: var(--cerulean-crayola);
+    max-width: 1200px;
+
+}
+
+.hero-info p {
+    font-size: 20px;
+    width: 65%;
+    color: black;
+
+}
+
+.primary-button {
+        color: white;
+        background-color: var(--medium-violet-red);
+        width: 120px;
+        padding: 8px 0px;
+        border-radius: 10px;
+        font-size: 20px;
+        text-align: center;
+}
+
+.hero-card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
 
