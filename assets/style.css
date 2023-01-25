@@ -21,7 +21,7 @@
 }
 
 header {    
-background: var(--tiza);
+background: rgba(4, 162, 206, 0.671);
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -89,7 +89,7 @@ main {
     display: flex;
     font-size: 70px;
     width: 60%;
-    color: var(--cerulean-crayola);
+    color: var(--medium-violet-red);
     max-width: 1200px;
 
 }
@@ -103,7 +103,7 @@ main {
 
 .primary-button {
         color: white;
-        background-color: var(--medium-violet-red);
+        background-color: var(--cerulean-crayola);
         width: 120px;
         padding: 8px 0px;
         border-radius: 10px;
@@ -140,4 +140,8 @@ main {
 #about-us h3 {
     align-items: center;
     font-size: 35px;
+}
+
+#about-us span {
+    color: var(--medium-violet-red);
 }
