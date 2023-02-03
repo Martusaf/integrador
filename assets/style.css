@@ -1,15 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 /* CSS HEX */
 :root {
 --ua-red: #DC1952ff;
 --cerulean-crayola: #04A2CEff;
 --lava: #C61321ff;
---medium-violet-red: #D1188Aff;
+--medium-violet-red: #ED1C6E;
 --bitter-lemon: #CFD508ff;
---goldenrod: #E0A601ff;
+--goldenrod: #FFBD59;
 --marigold: #F1A82Aff;
 --mantis: #6ABD51ff;
 --black: #000000ff;
---tiza: #fbf7f4ff;;
+--tiza: #fbf7f4ff;
+--verde: #03989E;
+--blue: #004AAD;
+
 }
 
 * {
@@ -21,18 +26,18 @@
 }
 
 header {    
-background: rgba(4, 162, 206, 0.671);;
+background: white;
 display: flex;
 justify-content: space-between;
 align-items: center;
 height: 65px;
-padding: 0px 10px;
+padding: 0px 10px;  
 position:sticky ;
 top: 0;
 }
 
 .navbar_logo {
-width: 15%;
+width: 10%;
 }
 
 .navbar, .navbar-list {
@@ -91,6 +96,9 @@ main {
     width: 60%;
     color: var(--medium-violet-red);
     max-width: 1200px;
+    font-family:'Oswald', sans-serif;
+    font-weight: 200px;
+    color: #004AAD;
 
 }
 
@@ -103,7 +111,7 @@ main {
 
 .primary-button {
         color: white;
-        background-color: var(--cerulean-crayola);
+        background-color: var(--verde);
         width: 150px;
         padding: 12px 0px;
         border-radius: 10px;
@@ -121,6 +129,7 @@ main {
     justify-content: center;
     gap: 20px;
 }
+
 
 .hero-card img {
     border-radius: 10px;
@@ -169,7 +178,7 @@ gap: 50px;
 }
 
 .card-info {
-    background-color: var(--cerulean-crayola);
+    background-color: rgb(227, 67, 166);;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
@@ -192,3 +201,31 @@ border-radius: 30px;
     padding: 0px 20px;
 }
 
+#services {
+    max-width: 1200px;
+    padding: 65px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-services img {
+width: 250px;
+border-radius: 30px;
+}
+
+#services h3 {
+    padding: 30px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.card-services {
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 0px 0px;
+    font-weight: 70px;
+    gap: 20px;
+}
