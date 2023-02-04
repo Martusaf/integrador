@@ -15,7 +15,9 @@
 --verde: #03989E;
 --blue: #004AAD;
 
+
 }
+
 
 * {
     margin: 0;
@@ -23,21 +25,24 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {    
-background: white;
+background: rgba(255, 255, 255, 0.596);
 display: flex;
 justify-content: space-between;
 align-items: center;
-height: 65px;
+height: 70px;
 padding: 0px 10px;  
 position:sticky ;
 top: 0;
 }
 
 .navbar_logo {
-width: 10%;
+width: 12%;
 }
 
 .navbar, .navbar-list {
@@ -54,12 +59,17 @@ gap: 10px;
 gap: 25px;
 }
 
+.navbar-list a {
+    color: var(--blue);
+    font-family: oswald;
+    font-size: 18px;
+}
+
 .navbar_login {
 width: 5%;
 justify-content: flex-end;
 float: right;
 }
-
 
 main {
     display: flex;
@@ -67,165 +77,87 @@ main {
     align-items: center;
     justify-content: center;
     color: var(--black);
-    width: 100%;
+    
 }
 
 #hero {
-    margin-top: 30px;
-    padding: 60px 0px;
-    max-width: 1200px;
+    margin-top: 180px;
+    padding: 120px 0px;
+    max-width: 1280px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .hero-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;
-    width: 500px;
-    border-radius: 10px;
-    padding: 10px 20px;
-
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.222);
+    width: 1905px;
+    height: 250px;
+    text-transform: uppercase;
 }
 
-.hero-info h1 {
-    display: flex;
-    font-size: 70px;
-    width: 60%;
-    color: var(--medium-violet-red);
-    max-width: 1200px;
-    font-family:'Oswald', sans-serif;
-    font-weight: 200px;
-    color: #004AAD;
+.hero-text {
+    font-size: 45px;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    font-family: oswald;
+}
 
+.hero-info h1 span {
+    color: var(--blue);
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 .hero-info p {
-    font-size: 20px;
-    width: 65%;
-    color: black;
-
-}
-
-.primary-button {
-        color: white;
-        background-color: var(--verde);
-        width: 150px;
-        padding: 12px 0px;
-        border-radius: 10px;
-        font-size: 15px;
-        font-weight: bold;
-        text-align: center;
-}
-
-.hero-card {
-    width: 500px;
-    padding: 10px;  
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-}
-
-
-.hero-card img {
-    border-radius: 10px;
-}
-
-#about-us {
-    margin-top: 50px;
-    padding: 65px 0px;
-    max-width: 1200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: center;
-    gap: 65px;
-}
-
-#about-us h3 {
-    align-items: center;
-    font-size: 35px;
-}
-
-#about-us span {
-    color: var(--medium-violet-red);
-}
-
-#card-diagnostico {
-    max-width: 1200px;
-    padding: 65px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#card-diagnostico h3 {
-    padding: 30px;
-    font-weight: bold;
-    font-size: 40px;
-}
-
-.conteiner-cards-diag {
-display: flex;
-align-items: flex-start;
-flex-wrap: wrap;
-gap: 50px;
-}
-
-.card-info {
-    background-color: rgb(227, 67, 166);;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-    padding: 0px 0px;
-    font-weight: 70px;
-    gap: 20px;
-}
-
-.card-info img {
-width: 250px;
-border-radius: 30px;
-}
-
-.card-info h4 {
-    align-items: center;
-    justify-content: center;
-    display: flex;
     color: white;
-    font-size: 22px;
-    padding: 0px 20px;
+    font-family: oswald;
+    padding-bottom: 20px;
+
 }
 
-#services {
-    max-width: 1200px;
-    padding: 65px 0px;
+.primary-button, .secondary-button {
+        color: white;
+        background-color: var(--blue);
+        width: 100px;
+        padding: 0px;
+        border-radius: 3px;
+        font-size: 15px;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: oswald;
+}
+
+.footer-list {
+    color: #004AAD;
+    font-family: oswald;
+    justify-content: center;   
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.card-services img {
-width: 250px;
-border-radius: 30px;
-}
-
-#services h3 {
-    padding: 30px;
-    font-weight: bold;
-    font-size: 40px;
-}
-
-.card-services {
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-    padding: 0px 0px;
-    font-weight: 70px;
+    flex-direction: row;
     gap: 20px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.footer-list a {
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
