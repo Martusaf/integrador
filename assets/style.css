@@ -154,7 +154,7 @@ main {
 }
 
 .footer-list a {
-    color: white;
+    color: var(--blue);
     justify-content: center;
     display: flex;
 }
@@ -171,7 +171,7 @@ footer {
 
 #about-us {
     margin-top: 50px;
-    padding: 65px 0px;
+    padding: 20px 0px;
     max-width: 1200px;
     display: flex;
     justify-content: center;
@@ -217,7 +217,53 @@ gap: 20px;
 
 /*SERVICIOS*/
 
+#services {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    font-family: oswald;
+}
 
+.services-text {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
 
+.services-text h2 {
+    font-size: 38px;
+    color: #03989E;
+}
+
+.services-text p {
+    font-weight: bold;
+    width: 650px;
+}
+
+.card-services-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-services-container img {
+    border-radius: 1rem;
+    width: 250px;
+}
+
+.card-services1 h3 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    flex-direction: column;
+    text-align: center;
+}
 
 
