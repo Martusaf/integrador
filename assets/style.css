@@ -69,7 +69,10 @@ gap: 25px;
 width: 5%;
 justify-content: flex-end;
 float: right;
+cursor: pointer;
 }
+
+/*INDEX CSS*/
 
 main {
     display: flex;
@@ -161,3 +164,60 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+/*ABOUT PAGE CSS*/
+
+/*NUESTRA MISION*/
+
+#about-us {
+    margin-top: 50px;
+    padding: 65px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: oswald;
+}
+
+.about-info {
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+    width: 35%;
+    }
+
+.about-info h2 {
+    font-size: 38px;
+    width: 70%;
+    color: var(--verde);
+}
+
+.about-info span {
+    color: var(--blue);
+    font-size: 50px;
+}
+
+.about-info p{ 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about-card {
+width: 500px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 30px;
+gap: 20px;
+}
+
+.about-card img{
+    border-radius: 10px;
+}
+
+/*SERVICIOS*/
+
+
+
+
+
