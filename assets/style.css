@@ -142,6 +142,10 @@ main {
         font-family: oswald;
 }
 
+.primary-button:hover, .secondary-button:hover {
+    background: var(--verde);
+}
+
 .footer-list {
     color: #004AAD;
     font-family: oswald;
@@ -266,4 +270,108 @@ gap: 20px;
     text-align: center;
 }
 
+.services-text span {
+    color: var(--blue);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
 
+/* CONTACT PAGE*/
+
+#hero-contact {
+    padding: 20px 0px;
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: oswald;
+}
+
+.hero-info-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 170px;
+}
+
+.hero-info-contact h2 {
+    color: var(--verde);
+    font-size: 40px;
+}
+
+.hero-info-contact h2 span {
+    color:var(--blue);
+    font-size: 38px;
+}
+
+.hero-info-contact p {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hero-info-contact p span {
+    color: var(--blue);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.hero-card-whatsapp, .hero-call-center h3 {
+    color: var(--verde);
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-card-call {
+    width: 300px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+.hero-card-whatsapp {
+    padding-top: 60px;
+}
+
+.third-button {
+    color: white;
+    background-color: var(--blue);
+    width: 100px;
+    padding: 0px;
+    border-radius: 3px;
+    font-size: 15px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: oswald;
+    margin-top: 5px;
+}
+
+.third-button:hover {
+background: var(--verde);
+}
+
+.hero-card-whatsapp p {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero-card-whatsapp-img {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+}
