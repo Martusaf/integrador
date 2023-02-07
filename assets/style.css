@@ -85,7 +85,7 @@ main {
 
 #hero {
     margin-top: 180px;
-    padding: 120px 0px;
+    padding: 20px 0px;
     max-width: 1280px;
     display: flex;
     justify-content: center;
@@ -101,7 +101,7 @@ main {
     gap: 10px;
     padding: 10px 10px;
     background-color: rgba(0, 0, 0, 0.222);
-    width: 1905px;
+    width: 1430 px;
     height: 250px;
     text-transform: uppercase;
 }
