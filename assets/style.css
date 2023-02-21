@@ -72,6 +72,13 @@ float: right;
 cursor: pointer;
 }
 
+.navbar-list span {
+    color: var(--verde);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: #004AAD;
+}
+
 /*INDEX CSS*/
 
 main {
@@ -375,3 +382,4 @@ background: var(--verde);
     padding: 30px;
     gap: 20px;
 }
+
