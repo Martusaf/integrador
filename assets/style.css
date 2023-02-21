@@ -79,6 +79,11 @@ cursor: pointer;
     text-shadow: #004AAD;
 }
 
+.navbar-list span:hover {
+    color: var(--medium-violet-red);
+    text-decoration: underline;
+}
+
 /*INDEX CSS*/
 
 main {
@@ -383,3 +388,71 @@ background: var(--verde);
     gap: 20px;
 }
 
+/*Formulario Pre-Enrolamiento*/
+
+.form_container {
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  
+
+}
+
+.form_imput {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+    font-family: oswald;
+    margin-top: 5px;
+}
+
+.third-button:hover {
+background: var(--verde);
+}
+
+.hero-card-whatsapp p {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero-card-whatsapp-img {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+/*Formulario Pre-Enrolamiento*/
+
+.form_container {
+    color: var(--blue);
+    display: felx;
+    align-items: center;
+    flex-direction: column;
+    max-width: 200px;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.form_imput {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+.form_container h1 {
+  
+}
+
+.form_container h1 {
+    width: 600px;
+    text-align: center;
+}
