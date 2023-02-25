@@ -116,6 +116,7 @@ main {
     width: 1500 px;
     height: 250px;
     text-transform: uppercase;
+    border-radius: 3px;
 }
 
 .hero-text {
@@ -229,6 +230,7 @@ gap: 20px;
 
 .about-card img{
     border-radius: 10px;
+    box-shadow: #004bad64 3px 3px;
 }
 
 /*SERVICIOS*/
@@ -271,6 +273,7 @@ gap: 20px;
 .card-services-container img {
     border-radius: 1rem;
     width: 250px;
+    box-shadow:  #004bad64 3px 3px;
 }
 
 .card-services1 h3 {
@@ -430,4 +433,96 @@ flex-direction: column;
     margin-top: 20px;
     margin-bottom: 12px;
 }
+
+/* DIAGNOSTICOS */
+
+#card-diagnostico {
+    padding: 50px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family: oswald;
+    
+}
+
+.container-cards-diag {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.container-cards-diag img {
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+#card-diagnostico h3 {
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.126);
+    width: 1280px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: var(--verde);
+    border-radius: 2px;
+}
+
+.card-info {
+    width: 300px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #03989E;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.107);
+    border-radius: 1rem;
+    box-shadow: #004bad6c 5px 5px;
+}
+
+.card-info h4 {
+    padding-bottom: 40px;
+    text-decoration: none;
+    color: var(--verde);
+}
+
+.card-info h4:hover {
+    color: #ED1C6E;
+    text-decoration: underline;
+}
+
+/* DIAGNOSTICOS INFORMACION SOBRE PATOLOGIAS */
+
+#terapias {
+padding: 50px 0px;
+max-width: 1200px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+font-family: oswald;
+}
+
+#terapias h3 {
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.126);
+    width: 1280px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: var(--verde);
+    border-radius: 2px;
+}
+
+
+
 
