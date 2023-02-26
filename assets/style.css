@@ -126,6 +126,7 @@ main {
     color: whitesmoke;
     text-align: center;
     font-family: oswald;
+    text-shadow: rgba(0, 0, 0, 0.258) 2px 2px 4px;
 }
 
 .hero-info h1 span {
@@ -133,12 +134,16 @@ main {
     font-family: Oswald;
     font-weight: bold;
     font-size: 50px;
+    text-shadow: rgba(0, 0, 0, 0.258) 2px 2px 4px;
+
 }
 
 .hero-info p {
     color: white;
     font-family: oswald;
     padding-bottom: 20px;
+    text-shadow: rgba(0, 0, 0, 0.258) 2px 2px 4px;
+
 
 }
 
@@ -154,7 +159,8 @@ main {
         justify-content: center;
         align-items: center;
         font-family: oswald;
-}
+        box-shadow:  rgb(0 0 0 / 16%) 0px 1px 4px;
+    }
 
 .primary-button:hover, .secondary-button:hover {
     background: var(--verde);
@@ -206,11 +212,16 @@ footer {
     font-size: 38px;
     width: 70%;
     color: var(--verde);
+    text-shadow: rgba(0, 0, 0, 0.258) 2px 2px 4px;
+
+
 }
 
 .about-info span {
     color: var(--blue);
     font-size: 50px;
+    text-shadow: rgba(0, 0, 0, 0.258) 2px 2px 4px;
+
 }
 
 .about-info p{ 
@@ -229,8 +240,8 @@ gap: 20px;
 
 .about-card img{
     border-radius: 10px;
-    box-shadow: #004bad64 3px 3px;
-}
+    box-shadow:  rgb(0 0 0 / 16%) 0px 1px 4px;
+    border: solid 1px #f4f4f4;}
 
 /*SERVICIOS*/
 
@@ -254,6 +265,8 @@ gap: 20px;
 .services-text h2 {
     font-size: 38px;
     color: #03989E;
+    text-shadow: rgba(0, 0, 0, 0.258) 2px 2px 4px;
+
 }
 
 .services-text p {
@@ -272,8 +285,8 @@ gap: 20px;
 .card-services-container img {
     border-radius: 1rem;
     width: 250px;
-    box-shadow:  #004bad64 3px 3px;
-}
+    box-shadow:  rgb(0 0 0 / 16%) 0px 1px 4px;
+    border: solid 1px #f4f4f4;}
 
 .card-services1 h3 {
     display:flex;
@@ -317,12 +330,16 @@ gap: 20px;
 
 .hero-info-contact h2 {
     color: var(--verde);
-    font-size: 40px;
+    font-size: 38px;
+    text-shadow: rgba(0, 0, 0, 0.258) 2px 2px 4px;
+
 }
 
 .hero-info-contact h2 span {
     color:var(--blue);
     font-size: 38px;
+    text-shadow: rgba(0, 0, 0, 0.258) 2px 2px 4px;
+
 }
 
 .hero-info-contact p {
@@ -344,9 +361,11 @@ gap: 20px;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    text-shadow: rgba(0, 0, 0, 0.258) 2px 2px 4px;
+
 }
 
-.hero-card-call {
+.hero-card-call img {
     width: 300px;
     border-radius: 1rem;
     display: flex;
@@ -373,6 +392,7 @@ gap: 20px;
     align-items: center;
     font-family: oswald;
     margin-top: 5px;
+    box-shadow:  rgb(0 0 0 / 16%) 0px 1px 4px;
 }
 
 .third-button:hover {
@@ -393,44 +413,6 @@ background: var(--verde);
     padding: 30px;
     gap: 20px;
 
-}
-
-/*Formulario Pre-Enrolamiento*/
-
-.form_container {
-width: 400px;
-background: #03989E;
-padding: 40px;
-border-radius: 3px;
-font-family: oswald;
-color: var(--blue);
-margin-top: 5px;
-margin: auto;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
- 
-}
-
-.form_imput {
-    width: 100%;
-    padding: 20px;
-    background: var(--blue);
-    font-family: oswald;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #004AAD;
-    font-size: 18px;
-
-    
-}
-
-
-.form_container h2 {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 12px;
 }
 
 /* DIAGNOSTICOS */
@@ -465,7 +447,7 @@ flex-direction: column;
 #card-diagnostico h3 {
     font-size: 40px;
     background-color: rgba(0, 0, 0, 0.126);
-    width: 1280px;
+    width: 1300px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -580,7 +562,7 @@ font-family: oswald;
     vertical-align: top;
     }
 
-    .fourth-button {
+.fourth-button {
         color: white;
         background-color: var(--blue);
         width: 100%;
@@ -593,8 +575,104 @@ font-family: oswald;
         justify-content: center;
         align-items: center;
         font-family: oswald;
+        box-shadow:  rgb(0 0 0 / 16%) 0px 1px 4px;
 }
 
 .fourth-button:hover {
     background: var(--verde);
 }
+
+/* INICIO DE SESION */
+
+#form-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto; 
+    padding-top: 120px;
+}
+
+.form_container_login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    flex-direction: column;
+    gap: 5px;
+    padding: 25px;
+}
+
+.form_container_login h2 {
+    color: var(--verde);
+    text-shadow: rgba(0, 0, 0, 0.258) 2px 2px 4px;
+    font-size: 38px;
+
+}
+
+.form_container_login img {
+    width: 100px;
+}
+
+.forgotten-button , .register-button , .login-button {
+    color: #004AAD;
+    font-family: oswald;
+}
+
+.forgotten-button:hover , .register-button:hover , .login-button:hover {
+    color: #ED1C6E;
+    text-decoration: underline;
+}
+
+/* REGISTRARSE (Formulario Pre-Enrolamiento) */
+
+#form_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto; 
+    padding-top: 120px;
+     
+    }
+    
+    .form_imput {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        flex-direction: column;
+        gap: 5px;
+        padding: 25px;
+       
+    }
+    
+    
+    .form_container h2 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+
+    .boton-registro {
+        color: white;
+        background-color: var(--blue);
+        width: 40%;
+        font-family: oswald;
+        text-transform: uppercase;
+    }
+
+
+    
+    
+
+
+
+
+
+
+
