@@ -320,6 +320,17 @@ gap: 20px;
     font-family: oswald;
 }
 
+#hero-contact h3 {
+    color: var(--verde);
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-shadow: rgba(0, 0, 0, 0.258) 2px 2px 4px;
+}
+
+
 .hero-info-contact {
     display: flex;
     align-items: center;
@@ -603,6 +614,12 @@ font-family: oswald;
     flex-direction: column;
     gap: 5px;
     padding: 25px;
+}
+
+.form_container_login p {
+    font-size: 12px;
+    padding: 12px;
+    text-align: center;
 }
 
 .form_container_login h2 {
