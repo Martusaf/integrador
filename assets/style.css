@@ -435,7 +435,7 @@ background: var(--verde);
 #card-diagnostico {
     padding: 50px 0px;
     min-width: 320px;
-    max-width: 680px;
+    max-width: 1280px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -463,8 +463,7 @@ background: var(--verde);
 #card-diagnostico h3 {
     font-size: 40px;
     background-color: rgba(0, 0, 0, 0.126);
-    min-width: 320px;
-    width: 1280px;
+    width: 950px;
     align-items: center;
     display: flex;
     justify-content: center;
