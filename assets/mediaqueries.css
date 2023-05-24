@@ -1,0 +1,8 @@
+@media (max-width: 576px) {
+    .navbar { 
+        display: flex
+    }
+    .menu-label i {
+        display: block;
+    }
+}

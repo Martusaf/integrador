@@ -114,7 +114,8 @@ main {
     gap: 10px;
     padding: 10px 10px;
     background-color: rgba(0, 0, 0, 0.222);
-    width: 1200px;
+    max-width: 1280px;
+    min-width: 320px;
     height: 250px;
     text-transform: uppercase;
     border-radius: 3px;
@@ -173,8 +174,8 @@ main {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    padding-top: 70px;
-    padding-bottom: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .footer-list a {
@@ -194,7 +195,8 @@ footer {
 #about-us {
     margin-top: 50px;
     padding: 20px 0px;
-    max-width: 1200px;
+    min-width: 320px;
+    max-width: 1280px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,6 +252,7 @@ gap: 20px;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    min-width: 320px;
     max-width: 1280px;
     font-family: oswald;
 }
@@ -312,6 +315,7 @@ gap: 20px;
 
 #hero-contact {
     padding: 20px 0px;
+    min-width: 320px;
     max-width: 1280px;
     display: flex;
     justify-content: center;
@@ -336,7 +340,7 @@ gap: 20px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0px 170px;
+    padding: 0px 50px;
 }
 
 .hero-info-contact h2 {
@@ -430,7 +434,8 @@ background: var(--verde);
 
 #card-diagnostico {
     padding: 50px 0px;
-    max-width: 1200px;
+    min-width: 320px;
+    max-width: 1280px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -458,7 +463,8 @@ background: var(--verde);
 #card-diagnostico h3 {
     font-size: 40px;
     background-color: rgba(0, 0, 0, 0.126);
-    width: 1300px;
+    min-width: 320px;
+    width: 1280px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -500,7 +506,8 @@ background: var(--verde);
 
 #terapias {
 padding: 50px 0px;
-max-width: 1200px;
+min-width: 320px;
+max-width: 1280px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -512,7 +519,7 @@ font-family: oswald;
 #terapias h3 {
     font-size: 40px;
     background-color: rgba(0, 0, 0, 0.126);
-    width: 1300px;
+    width: 1280px;
     align-items: center;
     display: flex;
     color: #03989E;
@@ -603,7 +610,7 @@ font-family: oswald;
     width: 100%;
     height: 100%;
     margin: 0 auto; 
-    padding-top: 120px;
+    padding-top: 30px;
 }
 
 .form_container_login {
@@ -653,7 +660,7 @@ font-family: oswald;
     width: 100%;
     height: 100%;
     margin: 0 auto; 
-    padding-top: 120px;
+    padding-top: 30px;
      
     }
     
@@ -683,12 +690,53 @@ font-family: oswald;
         text-transform: uppercase;
     }
 
-    
+    /* INPUT FORMS STYLES */
 
+    input {
+        width: 200px;
+        height: 30px;
+        border-radius: 1rem;
+        background-color: var(--verde);
+        color: var(--blue);
+        padding-left: 5px;
+        border-color: var(--blue) ;
+        font-family: oswald;
+        
+    }
     
-    
+    input::placeholder {
+        color: #f4f4f4;
+        text-align: center;
+    }
 
+    input[type="submit"] {
+        color: white;
+        background-color: var(--blue);
+        width: 100px;
+        padding: 0px;
+        border-radius: 3px;
+        font-size: 15px;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: oswald;
+        box-shadow:  rgb(0 0 0 / 16%) 0px 1px 4px;    
+    }
 
+    input[type="checkbox"] {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    }
+
+   .form_container_login p {
+    display: flex;
+    align-items: flex-start;
+    width: 280px;
+    color: var(--blue);
+
+    }
 
 
 
