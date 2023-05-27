@@ -54,13 +54,15 @@ justify-content: flex-end ;
 
 .navbar {
 gap: 10px;
+
 }
 
 .navbar-list {
-gap: 25px;
+gap: 10px;
+
 }
 
-.navbar-list a {
+.navbar-link {
     color: var(--blue);
     font-family: oswald;
     font-size: 18px;
@@ -73,17 +75,19 @@ float: right;
 cursor: pointer;
 }
 
-.navbar-list span {
+.navbar-link-inicio {
     color: var(--verde);
     font-weight: bold;
+    font-family: oswald;
     text-transform: uppercase;
-    text-shadow: #004AAD;
+    /* text-shadow: #004AAD; */
 }
 
 .navbar-list span:hover {
     color: var(--medium-violet-red);
     text-decoration: underline;
 }
+
 
 /*INDEX CUERPO CSS*/
 
@@ -97,7 +101,7 @@ main {
 }
 
 #hero {
-    margin-top: 180px;
+    margin-top: 100px;
     padding: 20px 0px;
     max-width: 1280px;
     display: flex;
@@ -116,7 +120,7 @@ main {
     background-color: rgba(0, 0, 0, 0.222);
     max-width: 1280px;
     min-width: 320px;
-    height: 250px;
+    height: 400px;
     text-transform: uppercase;
     border-radius: 3px;
 }
@@ -176,8 +180,8 @@ main {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 
 .footer-list a {
@@ -260,11 +264,12 @@ gap: 20px;
 }
 
 .services-text {
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
     flex-direction: column;
     padding: 50px;
+    width: 753px;
 }
 
 .services-text h2 {
@@ -530,12 +535,19 @@ gap: 40px;
 }
 
  .terapia-container { 
-    display: block;
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     gap: 40px;
     margin-bottom: 20px;
     background-color: rgba(64, 37, 37, 0.107);
     width: 753px;
+}
+
+.terapias-card {
+    justify-content: space-around;
+
 }
  
 .terapia-container img {
@@ -626,12 +638,30 @@ gap: 40px;
     width: 100px;
 }
 
-.forgotten-button , .register-button , .login-button {
+.forgotten-button , .register-button {
     color: #004AAD;
     font-family: oswald;
 }
 
-.forgotten-button:hover , .register-button:hover , .login-button:hover {
+.login-button {
+    color: white;
+    font-family: oswald;
+    border: #ED1C6E;
+    background-color: #ED1C6E;
+    border-radius: 0.2rem;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.login-button:hover {
+    background-color: #03989E;
+    color: white;
+}
+
+.forgotten-button:hover , .register-button:hover {
     color: #ED1C6E;
     text-decoration: underline;
 }
@@ -729,8 +759,3 @@ gap: 40px;
     -webkit-appearance: none;
     margin: 0;
 }
-
-
-
-
-
